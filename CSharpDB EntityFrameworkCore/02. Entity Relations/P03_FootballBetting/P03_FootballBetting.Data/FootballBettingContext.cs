@@ -38,7 +38,7 @@ namespace P03_FootballBetting.Data
             base.OnConfiguring(optionsBuilder);
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=DESKTOP-1JGF0DM\SQLEXPRESS;Database=MyFirstCFDB;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(@"Server=.;Database=MyFirstCFDB;Integrated Security=True;");
             }
             
         }
